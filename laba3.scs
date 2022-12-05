@@ -1,0 +1,95 @@
+laba3=[*
+
+sc_node_not_relation->writer;;
+sc_node_not_relation->author;;
+sc_node_not_relation->p_b;;
+sc_node_not_relation->q_b;;
+sc_node_not_relation->_a;;
+sc_node_not_relation->_w;;
+sc_node_not_relation->_x;;
+sc_node_not_relation->_pl;;
+sc_node_not_relation->_p;;
+sc_node_not_relation->_t;;
+sc_node_not_relation->binary_relation;;
+sc_node_not_relation->book;;
+sc_node_not_relation->binding;;
+
+
+sc_node_norole_relation->nrel_universality;;
+sc_node_norole_relation->nrel_equivalence;;
+sc_node_norole_relation->nrel_existence;;
+
+sc_node_role_relation->rrel_linked_variables;;
+sc_node_role_relation->rrel_link;;
+sc_node_role_relation->rrel_being_bound_into_binding;;
+sc_node_role_relation->rrel_text;;
+sc_node_role_relation->rrel_paper_lists;;
+
+
+
+
+nrel_universality -> ...
+(*
+-> rrel_linked_variables: ...(*<- _b;;*);;
+-> ...
+(*
+<- nrel_equivalence;;
+->...
+(*
+-> rrel_linked_variables: ...(*<- p_b; _pl; _p; _t;;*);;
+-> ...
+(*
+<- book(* _=> p_b;;*);;
+<- p_b;;
+*)
+->...
+(*
+<-binding(*_=>_p;;*);;
+<-_p;;
+<-_pl
+(*
+_=>rrel_being_bound_into_binding:_p;;
+_=>_t;;
+*)
+<-_t;;
+<-paper_lists(*_=>_pl;;*);;
+<-text(*_=>_t;;*);;
+*)
+*)
+*)
+*)
+
+
+
+nrel_universality -> ...
+(*
+-> rrel_linked_variables: ...(*<- _a;;*);;
+-> ...
+(*
+<- nrel_equivalence;;
+->...
+(*
+-> rrel_linked_variables: ...(*<- q_b; _w; _r;;*);;
+-> ...
+(*
+<- author(* _=> _a;;*);;
+<- _a;;
+*)
+->...
+(*
+<- _a;;
+<- _b;;
+<- _w;;
+<- binary_relation(* _=> _r;;*);;
+<- writer(* _=> _w;;*);;
+<- book(* _=> _b;;*);;
+<- ...
+(*
+_<=rrel_link:_r;; 
+_=> _w;;
+_=> q_b;;
+*);;
+*)
+*)
+*)
+*)
