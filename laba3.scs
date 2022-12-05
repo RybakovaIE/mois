@@ -41,7 +41,7 @@ nrel_universality -> ...
 (*
 <- book(* _=> p_b;;*);;
 <- p_b;;
-*)
+*);;
 ->...
 (*
 <-binding(*_=>_p;;*);;
@@ -50,7 +50,7 @@ nrel_universality -> ...
 (*
 _=>rrel_being_bound_into_binding:_p;;
 _=>_t;;
-*)
+*);;
 <-_t;;
 <-paper_lists(*_=>_pl;;*);;
 <-text(*_=>_t;;*);;
@@ -74,7 +74,7 @@ nrel_universality -> ...
 (*
 <- author(* _=> _a;;*);;
 <- _a;;
-*)
+*);;
 ->...
 (*
 <- _a;;
