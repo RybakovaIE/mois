@@ -1,0 +1,41 @@
+concept_book <- sc_node_not_relation;;
+concept_paper_sheets <- sc_node_not_relation;;
+concept_text <- sc_node_not_relation;;
+concept_binding <- sc_node_not_relation;;
+concept_world <- sc_node_not_relation;;
+concept_printed_book <- sc_node_not_relation;;
+concept_Guinness_Book_of_Records <- sc_node_not_relation;;
+concept_writer <- sc_node_not_relation;;
+
+book=>nrel_main_idtf:[book](*<-lang_en;;*);;
+book=>nrel_main_idtf:[книга](*<-lang_ru;;*);;
+
+sc_definition -> ...(*
+    ->rrel_key_sc_element:book;;
+
+    <=nrel_sc_text_translation: ... (*->rrel_example:[Книга - сшитые в один переплёт листы бумаги, содержащие текст.](*<-lang_ru;;*);;*);;
+
+    =>nrel_main_idtf:[Опр.(книга)](*<-lang_ru;;*);;
+
+    =>nrel_using_constants:{
+      paper_sheets;
+      text;
+      binding
+    };;
+*);;
+
+sc_statement -> ...(*
+    ->rrel_key_sc_element:book;;
+
+    <=nrel_sc_text_translation: ...(*->rrel_example:[Согласно Книге рекордов Гиннесса самой большой печатной книгой в мире является "Гигантская визуальная одиссея по королевству Бутан".](*<lang_ru;;*);;*);;
+
+    =>nrel_main_idtf:[Утв.(Самая большая книга)](*<-lang_ru;;*);;
+ 
+        =>nrel_using_constants:{
+        world;
+        printed_book;
+        Guinness_Book_of_Records
+    };;
+*);;
+writer<=nrel_author:book;;
+
