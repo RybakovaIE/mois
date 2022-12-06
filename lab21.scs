@@ -7,6 +7,7 @@ concept_world <- sc_node_not_relation;;
 concept_printed_book <- sc_node_not_relation;;
 concept_Guinness_Book_of_Records <- sc_node_not_relation;;
 concept_writer <- sc_node_not_relation;;
+book_individual <- sc_node_not_relation;;
 
 book=>nrel_main_idtf:[book](*<-lang_en;;*);;
 book=>nrel_main_idtf:[книга](*<-lang_ru;;*);;
@@ -39,4 +40,5 @@ sc_statement -> ...(*
     };;
 *);;
 writer<=nrel_author:book;;
+book_individual=>nrel_inclusion:book;;
 *];;
