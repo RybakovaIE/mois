@@ -1,0 +1,74 @@
+nrel_author <- sc_node_norole_relation;;
+concept_writer <- sc_node_not_relation;;
+concept_book <- sc_node_not_relation;;
+concept_relation <- sc_node_not_relation;;
+concept_history <- sc_node_not_relation;;
+concept_worst_book <- sc_node_not_relation;;
+concept_Stephen_King <- sc_node_not_relation;;
+concept_Misery <- sc_node_not_relation;;
+
+nrel_union<-sc_node_norole_relation;;
+nrel_first_domen<-sc_node_norole_relation;;
+nrel_second_domen<-sc_node_norole_relation;;
+nrel_domain<-sc_node_norole_relation;;
+
+
+author=>nrel_main_idtf:[author](*<-lang_en;;*);;
+author=>nrel_main_idtf:[автор](*<-lang_ru;;*);;
+
+
+sc_definition -> ...(*
+    ->rrel_key_sc_element:author;;
+
+    <=nrel_sc_text_translation: ... (*->rrel_example:[Автор - бинарное отношение, связывающее книгу и писателя.](*<-lang_ru;;*);;*);;
+
+    =>nrel_main_idtf:[Опр.(Автор)](*<-lang_ru;;*);;
+
+    =>nrel_using_constants:{
+       book;
+       writer
+
+    };;
+*);;
+
+sc_statement -> ...(*
+    ->rrel_key_sc_element:author;;
+
+    <=nrel_sc_text_translation: ... (*->rrel_example:[Рентог Пенс является автором худшей книги истории человечества "Прыжок в никуда", которую он придумал не спав 30 дней подряд.](*<-lang_ru;;*);;*);;
+
+    =>nrel_main_idtf:[Утв.(Рентог Пенс)](*<-lang_ru;;*);;
+
+    =>nrel_using_constants:{
+        
+        worst_book;
+        history
+    };;
+*);;
+
+Misery=>author:Stephen_King;;
+
+parametr->arity;;
+number->2;;
+binary_relation->author;
+=>2;
+<-arity;;
+
+
+...
+->element;element;
+<=union:set;;
+
+author
+=>nrel_first_domain:element;
+=>nrel_second_domain:element;
+=>score_of_definition:set;
+<-antisimetrichnoe;antirefleksivnoe;antitransitivnoe;;
+
+relation
+=>nrel_inclusion:uirected_relation;
+=>nrel_inclusion:binary_relation;;
+
+binary_relation
+=>nrel_inclusion:antisimetrichnoe;
+=>nrel_inclusion:antitransitivnoe;
+=>nrel_inclusion:antirefleksivnoe;;
