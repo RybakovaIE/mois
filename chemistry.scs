@@ -1,7 +1,7 @@
-laba1=[*
+Chemistry=[*
 	sc_node_struct->section_subject_domain_of_chemistry;;
 
-	section_subject_domain_of_football<=nrel_section_decomposition:{
+	section_subject_domain_of_chemistry<=nrel_section_decomposition:{
 		section_subject_domain_of_organic_chemistry(*<-sc_node_struct;;*);	
 		section_subject_domain_of_nonorganic_chemistry(*<-sc_node_struct;;*)
 	};;
@@ -31,7 +31,7 @@ laba1=[*
 		[Section.Subject domain of chemistry]
         	(* <- lang_en;; *);;
     
-	concept_organic_chemicals<-rrel_not_maximum_studied_object_class:subject_domain_of_football;;
+	concept_organic_chemicals<-rrel_not_maximum_studied_object_class:subject_domain_of_chemistry;;
     
 	section_subject_domain_of_chemistry<-non_atomic_section;;
 
@@ -41,7 +41,7 @@ laba1=[*
     
     	subject_domain_of_chemistry => nrel_main_idtf:
         	[Subject domain of chemistry]
-        	(* <- lang_;; *);;
+        	(* <- lang_en;; *);;
 
     	subject_domain_of_chemistry=>nrel_private_subject_domain:
 		subject_domain_of_organic_chemistry(*<-sc_node_struct;;*);
