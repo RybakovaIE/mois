@@ -1,0 +1,73 @@
+laba1=[*
+	sc_node_struct->section_subject_domain_of_chemistry;;
+
+	section_subject_domain_of_football<=nrel_section_decomposition:{
+		section_subject_domain_of_organic_chemistry(*<-sc_node_struct;;*);	
+		section_subject_domain_of_nonorganic_chemistry(*<-sc_node_struct;;*)
+	};;
+	section_subject_domain_of_chemistry->rrel_key_sc_element:subject_domain_of_chemistry(*<-sc_node_struct;;*);
+	concept_chemical_element(*<-sc_node_class;;*);
+	concept_molecule(*<-sc_node_class;;*);
+	concept_proton(*<-sc_node_class;;*);
+	concept_neutron(*<-sc_node_class;;*);
+	concept_electron(*<-sc_node_class;;*);
+	concept_chemical_reaction(*<-sc_node_class;;*);
+        concept_chemical_substance(*<-sc_node_class;;*);
+        concept_energy_shell(*<-sc_node_class;;*);
+        nrel_valence(*<-sc_node_norole_relation;;*);
+        nrel_molar_mass(*<-sc_node_norole_relation;;*);
+	nrel_serial_number(*<-sc_node_norole_relation;;*);
+        nrel_charge(*<-sc_node_norole_relation;;*);
+        nrel_formula(*<-sc_node_norole_relation;;*);
+        nrel_energy_levels_number(*<-sc_node_norole_relation;;*);
+        nrel_radioactivity(*<-sc_node_norole_relation;;*);;
+
+
+        section_subject_domain_of_chemistry => nrel_main_idtf:
+        	[Раздел.Предметная область химия]
+        	(* <- lang_ru;; *);;
+
+	section_subject_domain_of_chemistry => nrel_main_idtf:
+		[Section.Subject domain of chemistry]
+        	(* <- lang_en;; *);;
+    
+	concept_organic_chemicals<-rrel_not_maximum_studied_object_class:subject_domain_of_football;;
+    
+	section_subject_domain_of_chemistry<-non_atomic_section;;
+
+	subject_domain_of_chemistry => nrel_main_idtf:
+        	[Предметная область химия]
+        	(* <- lang_ru;; *);;
+    
+    	subject_domain_of_chemistry => nrel_main_idtf:
+        	[Subject domain of chemistry]
+        	(* <- lang_;; *);;
+
+    	subject_domain_of_chemistry=>nrel_private_subject_domain:
+		subject_domain_of_organic_chemistry(*<-sc_node_struct;;*);
+        	subject_domain_of_nonorganic_chemistry(*<-sc_node_struct;;*);;
+
+	subject_domain_of_chemistry<=nrel_private_subject_domain:subject_domain_of_science(*<-sc_node_struct;;*);;
+
+        subject_domain_of_chemistry->rrel_maximum_studied_object_class:concept_chemistry;;
+    
+        subject_domain_of_chemistry->rrel_explored_relation:
+        	nrel_valence;
+        	nrel_molar_mass;
+        	nrel_serial_number;
+        	nrel_charge;
+                nrel_formula;
+                nrel_energy_levels_number;
+        	nrel_radioactivity;;
+    
+    	subject_domain_of_chemistry<-subject_domain;;
+*];;		
+
+
+
+
+
+
+
+
+
