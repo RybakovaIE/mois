@@ -14,7 +14,7 @@ concept_cipralex_10_mg(*<-sc_node_not_relation;;*)
 	=>nrel_company:Lex_Ano_UAB;;
 	=>nrel_countries_of_sale:...(*->country_estonia;;*);;
 	=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);;
-	=>nrel_dosage_form:concept_film-coated_tablet(*<-sc_node_not_relation;;*);;
+	=>nrel_dosage_form:concept_film_coated_tablet(*<-sc_node_not_relation;;*);;
 	=>nrel_dosage:...(*
 		<-sc_node_not_relation;;
 		<-concept_dosage(*<-sc_node_not_relation;;*)
