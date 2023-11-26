@@ -1,5 +1,5 @@
-concept_cipralex_10_mg(
-	*<-sc_node_not_relation;;
+concept_cipralex_10_mg(*
+	<-sc_node_not_relation;;
 	<-consept_medication(*<-sc_node_not_relation;;*);;
 	<-concept_N_nervous_system(*<-sc_node_not_relation;;*);;
 	=>nrel_atc_code:[N];;
