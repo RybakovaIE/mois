@@ -18,7 +18,7 @@ concept_cipralex_10_mg(*<-sc_node_not_relation;;*)
 	=>nrel_dosage:...(*
 		<-sc_node_not_relation;;
 		<-concept_dosage(*<-sc_node_not_relation;;*)
-		=>nrel_measurement_in_mg:10(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*)
+		=>nrel_measurement_in_mg:10(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);;
 	=>nrel_active_substances:...(*->escitalopram(*
 		<-sc_node_not_relation;;
 		<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*)
