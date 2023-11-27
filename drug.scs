@@ -1,25 +1,25 @@
-concept_cipralex_10_mg(*
+concept_cipralex_10_mg
+<-sc_node_not_relation;;
+<-consept_medication(*<-sc_node_not_relation;;*);;
+<-concept_N_nervous_system(*<-sc_node_not_relation;;*);;
+=>nrel_atc_code:[N];;
+<-concept_N06_psychoanaleptics(*<-sc_node_not_relation;;*);;
+=>nrel_atc_code:[N06];;
+<-concept_N06A_antidepressants(*<-sc_node_not_relation;;*);;
+=>nrel_atc_code:[N06A];;
+<-concept_N06AB_selective_serotonin_reuptake_inhibitors(*<-sc_node_not_relation;;*);;
+=>nrel_atc_code:[N06AB];;
+<-concept_N06AB10_escitalopram(*<-sc_node_not_relation;;*);;
+=>nrel_atc_code:[N06AB10];;	
+=>nrel_main_idtf:[cipralex (10mg)](*<-lang_en;;*);;
+=>nrel_company:Lex_Ano_UAB;;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);;
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);;
+=>nrel_dosage_form:concept_film_coated_tablet(*<-sc_node_not_relation;;*);;
+=>nrel_dosage:...(*
 	<-sc_node_not_relation;;
-	<-consept_medication(*<-sc_node_not_relation;;*);;
-	<-concept_N_nervous_system(*<-sc_node_not_relation;;*);;
-	=>nrel_atc_code:[N];;
-	<-concept_N06_psychoanaleptics(*<-sc_node_not_relation;;*);;
-	=>nrel_atc_code:[N06];;
-	<-concept_N06A_antidepressants(*<-sc_node_not_relation;;*);;
-	=>nrel_atc_code:[N06A];;
-	<-concept_N06AB_selective_serotonin_reuptake_inhibitors(*<-sc_node_not_relation;;*);;
-	=>nrel_atc_code:[N06AB];;
-	<-concept_N06AB10_escitalopram(*<-sc_node_not_relation;;*);;
-	=>nrel_atc_code:[N06AB10];;	
-	=>nrel_main_idtf:[cipralex (10mg)](*<-lang_en;;*);;
-	=>nrel_company:Lex_Ano_UAB;;
-	=>nrel_countries_of_sale:...(*->country_estonia;;*);;
-	=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);;
-	=>nrel_dosage_form:concept_film_coated_tablet(*<-sc_node_not_relation;;*);;
-	=>nrel_dosage:...(*
-		<-sc_node_not_relation;;
-		<-concept_dosage(*<-sc_node_not_relation;;*);;
-		=>nrel_measurement_in_mg:10(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);;
-	=>nrel_active_substances:...(*->escitalopram(*
-		<-sc_node_not_relation;;
-		<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;*);;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:10(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);;
+=>nrel_active_substances:...(*->escitalopram(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
