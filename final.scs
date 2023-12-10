@@ -32,9 +32,9 @@ concept_lartokaz_300_mg
 <-consept_medication(*<-sc_node_not_relation;;*);
 <-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C];
-<-concept_c09_renin-angiotensin-functioning_substances(*<-sc_node_not_relation;;*);
+<-concept_c09_renin_angiotensin_functioning_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09];
-<-concept_c09d_angiotensin_ii_receptor_blockers_(arb)_combinations(*<-sc_node_not_relation;;*);
+<-concept_c09d_combinations_of_angiotensin_ii_receptor_blockers_(arb)(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09D];
 <-concept_c09da_angiotensin_ii_receptor_blockers_(arb)_and_diuretics(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09DA];
@@ -61,7 +61,7 @@ concept_lartokaz_25_mg
 <-consept_medication(*<-sc_node_not_relation;;*);
 <-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C];
-<-concept_c09_renin-agiotensin_system_substances(*<-sc_node_not_relation;;*);
+<-concept_c09_renin_angiotensin_functioning_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09];
 <-concept_c09d_angiotensin_ii_receptor_blockers_(arb)_combinations(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09D];
@@ -151,7 +151,7 @@ concept_solvetta_15_mcg
 =>nrel_atc_code:[G];
 <-concept_g02_other_substances_used_in_gynecology(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[G02];
-<-concept_g02b_contraceptives_to_be_used_for_topically(*<-sc_node_not_relation;;*);
+<-concept_g02b_contraceptives_to_be_used_in_the_topically(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[G02B];
 <-concept_g02bb_vaginal_contraceptives(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[G02BB];
@@ -180,7 +180,7 @@ concept_renitec_forte_20_mg
 <-consept_medication(*<-sc_node_not_relation;;*);
 <-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C];
-<-concept_c09_renin-angiotensin-functioning_substances(*<-sc_node_not_relation;;*);
+<-concept_c09_renin_agiotensin_system_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09];
 <-concept_c09a_inhibitors_of_angiotensin_converting_enzyme(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09A];
@@ -206,9 +206,9 @@ caelyx_pegylated_liposomal_2_mg=[*
 concept_caelyx_pegylated_liposomal_2_mg
 <-sc_node_not_relation;
 <-consept_medication(*<-sc_node_not_relation;;*);
-<-concept_l_anti_-tumor_and_immunomodulatory_agents(*<-sc_node_not_relation;;*);
+<-concept_l_anti__tumor_and_immunomodulatory_agents(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[L];
-<-concept_l01_anti_-tumor_substances(*<-sc_node_not_relation;;*);
+<-concept_l01_anti__tumor_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[L01];
 <-concept_l01d_cytotoxic_antibiotics_and_similar_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[L01D];
@@ -234,9 +234,9 @@ caelyx_pegylated_liposomal_1_ml=[*
 concept_caelyx_pegylated_liposomal_1_ml
 <-sc_node_not_relation;
 <-consept_medication(*<-sc_node_not_relation;;*);
-<-concept_l_anti_-tumor_and_immunomodulatory_agents(*<-sc_node_not_relation;;*);
+<-concept_l_anti__tumor_and_immunomodulatory_agents(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[L];
-<-concept_l01_anti_-tumor_substances(*<-sc_node_not_relation;;*);
+<-concept_l01_anti__tumor_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[L01];
 <-concept_l01d_cytotoxic_antibiotics_and_similar_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[L01D];
@@ -268,7 +268,7 @@ concept_zofran_8_mg
 =>nrel_atc_code:[A04];
 <-concept_a04a_substances_in_vomiting_and_nausea(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[A04A];
-<-concept_a04aa_serotonin_(5-ht3)_antagonists(*<-sc_node_not_relation;;*);
+<-concept_a04aa_serotonin_(5_ht3)_antagonists(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[A04AA];
 <-concept_a04aa01_ondansetron(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[A04AA01];
@@ -290,7 +290,7 @@ paxlovid_150_mg=[*
 concept_paxlovid_150_mg
 <-sc_node_not_relation;
 <-consept_medication(*<-sc_node_not_relation;;*);
-<-concept_j_anti_-infectious_substances_for_systemic_use(*<-sc_node_not_relation;;*);
+<-concept_j_anti__infectious_substances_for_systematic_use(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[J];
 <-concept_j05_antiviral_substances_for_systemic_use(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[J05];
@@ -319,7 +319,7 @@ paxlovid_100_mg=[*
 concept_paxlovid_100_mg
 <-sc_node_not_relation;
 <-consept_medication(*<-sc_node_not_relation;;*);
-<-concept_j_anti_-infectious_substances_for_systemic_use(*<-sc_node_not_relation;;*);
+<-concept_j_anti__infectious_substances_for_systematic_use(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[J];
 <-concept_j05_antiviral_substances_for_systemic_use(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[J05];
@@ -350,13 +350,13 @@ concept_olmesartan_medoxomil_accord_40_mg
 <-consept_medication(*<-sc_node_not_relation;;*);
 <-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C];
-<-concept_c09_renin-angiotensin-functioning_substances(*<-sc_node_not_relation;;*);
+<-concept_c09_renin_agiotensin_system_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09];
 <-concept_c09c_angiotensin_ii_receptor_blockers_(arb)(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09C];
 <-concept_c09ca_angiotensin_ii_receptor_blockers_(arb)(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09CA];
-<-concept_c09ca08_olmesartan_-toxomil(*<-sc_node_not_relation;;*);
+<-concept_c09ca08_olmesartan__toxomil(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09CA08];
 =>nrel_main_idtf:[olmesartan_medoxomil_accord (40mg)](*<-lang_en;;*);
 =>nrel_company:Accord_Healthcare_B.V.;
