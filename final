@@ -1,0 +1,373 @@
+cipralex_10_mg=[*
+concept_cipralex_10_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_n_nervous_system(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[N];
+<-concept_n06_psychoanaleptics(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[N06];
+<-concept_n06a_antidepressants(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[N06A];
+<-concept_n06ab_selective_serotonin_reuptake_inhibitors(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[N06AB];
+<-concept_n06ab10_escitalopram(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[N06AB10];
+=>nrel_main_idtf:[cipralex (10mg)](*<-lang_en;;*);
+=>nrel_company:Lex_Ano_UAB;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_film_coated_tablet(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:10(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->escitalopram(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+lartokaz_300_mg=[*
+concept_lartokaz_300_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C];
+<-concept_c09_renin-angiotensin-functioning_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09];
+<-concept_c09d_angiotensin_ii_receptor_blockers_(arb)_combinations(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09D];
+<-concept_c09da_angiotensin_ii_receptor_blockers_(arb)_and_diuretics(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09DA];
+=>nrel_main_idtf:[lartokaz (300mg)](*<-lang_en;;*);
+=>nrel_company:Laboratorios_Liconsa_S.A.;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_tablet(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:300(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->irbesartan(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->hydrochlorothiazide(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+lartokaz_25_mg=[*
+concept_lartokaz_25_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C];
+<-concept_c09_renin-agiotensin_system_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09];
+<-concept_c09d_angiotensin_ii_receptor_blockers_(arb)_combinations(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09D];
+<-concept_c09da_angiotensin_ii_receptor_blockers_(arb)_and_diuretics(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09DA];
+=>nrel_main_idtf:[lartokaz (25mg)](*<-lang_en;;*);
+=>nrel_company:Laboratorios_Liconsa_S.A.;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_tablet(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:25(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->irbesartan(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->hydrochlorothiazide(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+metformin_accord_500_mg=[*
+concept_metformin_accord_500_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_a_the_digestive_tract_and_metabolism(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A];
+<-concept_a10_substances_used_to_treat_diabetes(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A10];
+<-concept_a10b_substances_that_reduce_blood_glucose_levels,_j.a_insulin(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A10B];
+<-concept_a10ba_biguanides(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A10BA];
+<-concept_a10ba02_metformin(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A10BA02];
+=>nrel_main_idtf:[metformin_accord (500mg)](*<-lang_en;;*);
+=>nrel_company:Accord_Healthcare_B.V.;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_film_coated_tablet(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:500(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->metformin(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+solvetta_120_mcg=[*
+concept_solvetta_120_mcg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_g_the_urogenital_system_and_sex_hormones(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G];
+<-concept_g02_other_substances_used_in_gynecology(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G02];
+<-concept_g02b_contraceptives_to_be_used_in_the_topically(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G02B];
+<-concept_g02bb_vaginal_contraceptives(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G02BB];
+<-concept_g02bb01_ethonogestrel+ethynyl_estradiol(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G02BB01];
+=>nrel_main_idtf:[solvetta (120mcg)](*<-lang_en;;*);
+=>nrel_company:Sandoz_Pharmaceuticals_d.d.;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_vaginal_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_vaginal_delivery_system(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mcg:120(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->etonogestrel(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->ethinylestradiol(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+solvetta_15_mcg=[*
+concept_solvetta_15_mcg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_g_the_urogenital_system_and_sex_hormones(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G];
+<-concept_g02_other_substances_used_in_gynecology(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G02];
+<-concept_g02b_contraceptives_to_be_used_for_topically(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G02B];
+<-concept_g02bb_vaginal_contraceptives(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G02BB];
+<-concept_g02bb01_ethonogestrel+ethynyl_estradiol(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[G02BB01];
+=>nrel_main_idtf:[solvetta (15mcg)](*<-lang_en;;*);
+=>nrel_company:Sandoz_Pharmaceuticals_d.d.;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_vaginal_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_vaginal_delivery_system(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mcg:15(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->etonogestrel(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->ethinylestradiol(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+renitec_forte_20_mg=[*
+concept_renitec_forte_20_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C];
+<-concept_c09_renin-angiotensin-functioning_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09];
+<-concept_c09a_inhibitors_of_angiotensin_converting_enzyme(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09A];
+<-concept_c09aa_inhibitors_of_angiotensin_converting_enzyme(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09AA];
+<-concept_c09aa02_enalapril(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09AA02];
+=>nrel_main_idtf:[renitec_forte (20mg)](*<-lang_en;;*);
+=>nrel_company:Merck_Sharp_&_Dohme_OÃ;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_tablet(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:20(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->enalapril(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+caelyx_pegylated_liposomal_2_mg=[*
+concept_caelyx_pegylated_liposomal_2_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_l_anti_-tumor_and_immunomodulatory_agents(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L];
+<-concept_l01_anti_-tumor_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L01];
+<-concept_l01d_cytotoxic_antibiotics_and_similar_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L01D];
+<-concept_l01db_anthracyclines_and_similar_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L01DB];
+<-concept_l01db01_doxorubicin(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L01DB01];
+=>nrel_main_idtf:[caelyx_pegylated_liposomal (2mg)](*<-lang_en;;*);
+=>nrel_company:Baxter_Holding_B.V.;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_intravenous_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_concentrate_for_solution_for_infusion(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:2(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->doxorubicin(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+caelyx_pegylated_liposomal_1_ml=[*
+concept_caelyx_pegylated_liposomal_1_ml
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_l_anti_-tumor_and_immunomodulatory_agents(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L];
+<-concept_l01_anti_-tumor_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L01];
+<-concept_l01d_cytotoxic_antibiotics_and_similar_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L01D];
+<-concept_l01db_anthracyclines_and_similar_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L01DB];
+<-concept_l01db01_doxorubicin(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[L01DB01];
+=>nrel_main_idtf:[caelyx_pegylated_liposomal (1ml)](*<-lang_en;;*);
+=>nrel_company:Baxter_Holding_B.V.;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_intravenous_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_concentrate_for_solution_for_infusion(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_ml:1(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->doxorubicin(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+zofran_8_mg=[*
+concept_zofran_8_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_a_the_digestive_tract_and_metabolism(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A];
+<-concept_a04_substances_in_vomiting_and_nausea(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A04];
+<-concept_a04a_substances_in_vomiting_and_nausea(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A04A];
+<-concept_a04aa_serotonin_(5-ht3)_antagonists(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A04AA];
+<-concept_a04aa01_ondansetron(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[A04AA01];
+=>nrel_main_idtf:[zofran (8mg)](*<-lang_en;;*);
+=>nrel_company:Novartis_Baltics_SIA;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_film_coated_tablet(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:8(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->ondansetron(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+paxlovid_150_mg=[*
+concept_paxlovid_150_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_j_anti_-infectious_substances_for_systemic_use(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[J];
+<-concept_j05_antiviral_substances_for_systemic_use(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[J05];
+<-concept_j05a_antiviral_substances_with_direct_action(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[J05A];
+<-concept_j05ae_protease_inhibitors(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[J05AE];
+=>nrel_main_idtf:[paxlovid (150mg)](*<-lang_en;;*);
+=>nrel_company:Pfizer_Europe_MA_EEIG;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_film_coated_tablet(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:150(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->nirmatrelvir(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->ritonavir(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+paxlovid_100_mg=[*
+concept_paxlovid_100_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_j_anti_-infectious_substances_for_systemic_use(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[J];
+<-concept_j05_antiviral_substances_for_systemic_use(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[J05];
+<-concept_j05a_antiviral_substances_with_direct_action(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[J05A];
+<-concept_j05ae_protease_inhibitors(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[J05AE];
+=>nrel_main_idtf:[paxlovid (100mg)](*<-lang_en;;*);
+=>nrel_company:Pfizer_Europe_MA_EEIG;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_film_coated_tablet(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:100(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->nirmatrelvir(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->ritonavir(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
+
+olmesartan_medoxomil_accord_40_mg=[*
+concept_olmesartan_medoxomil_accord_40_mg
+<-sc_node_not_relation;
+<-consept_medication(*<-sc_node_not_relation;;*);
+<-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C];
+<-concept_c09_renin-angiotensin-functioning_substances(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09];
+<-concept_c09c_angiotensin_ii_receptor_blockers_(arb)(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09C];
+<-concept_c09ca_angiotensin_ii_receptor_blockers_(arb)(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09CA];
+<-concept_c09ca08_olmesartan_-toxomil(*<-sc_node_not_relation;;*);
+=>nrel_atc_code:[C09CA08];
+=>nrel_main_idtf:[olmesartan_medoxomil_accord (40mg)](*<-lang_en;;*);
+=>nrel_company:Accord_Healthcare_B.V.;
+=>nrel_countries_of_sale:...(*->country_estonia;;*);
+=>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
+=>nrel_dosage_form:concept_film_coated_tablet(*<-sc_node_not_relation;;*);
+=>nrel_dosage:...(*
+	<-sc_node_not_relation;;
+	<-concept_dosage(*<-sc_node_not_relation;;*);;
+	=>nrel_measurement_in_mg:40(*<-concept_number(*<-sc_node_not_relation;;*);;*);;*);
+=>nrel_active_substances:...(*->olmesartan_medoxomil(*
+	<-sc_node_not_relation;;
+	<-concept_pharmacologic_substance(*<-sc_node_not_relation;;*);;*);;*);;
+*];;
