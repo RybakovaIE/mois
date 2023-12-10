@@ -34,9 +34,9 @@ concept_lartokaz_300_mg
 =>nrel_atc_code:[C];
 <-concept_c09_renin_agiotensin_system_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09];
-<-concept_c09d_combinations_of_angiotensin_ii_receptor_blockers_arb(*<-sc_node_not_relation;;*);
+<-concept_c09d_angiotensin_ii_receptor_blockers_combinations(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09D];
-<-concept_c09da_angiotensin_ii_receptor_blockers_arb_and_diuretics(*<-sc_node_not_relation;;*);
+<-concept_c09da_angiotensin_ii_receptor_blockers_and_diuretics(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09DA];
 =>nrel_main_idtf:[lartokaz (300mg)](*<-lang_en;;*);
 =>nrel_company:Laboratorios_Liconsa_S.A.;
@@ -61,11 +61,11 @@ concept_lartokaz_25_mg
 <-consept_medication(*<-sc_node_not_relation;;*);
 <-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C];
-<-concept_c09_renin_agiotensin_system_substances(*<-sc_node_not_relation;;*);
+<-concept_c09_renin_angiotensin_functioning_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09];
-<-concept_c09d_combinations_of_angiotensin_ii_receptor_blockers_arb(*<-sc_node_not_relation;;*);
+<-concept_c09d_angiotensin_ii_receptor_blockers_combinations(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09D];
-<-concept_c09da_angiotensin_ii_receptor_blockers_arb_and_diuretics(*<-sc_node_not_relation;;*);
+<-concept_c09da_angiotensin_ii_receptor_blockers_and_diuretics(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09DA];
 =>nrel_main_idtf:[lartokaz (25mg)](*<-lang_en;;*);
 =>nrel_company:Laboratorios_Liconsa_S.A.;
@@ -92,7 +92,7 @@ concept_metformin_accord_500_mg
 =>nrel_atc_code:[A];
 <-concept_a10_substances_used_to_treat_diabetes(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[A10];
-<-concept_a10b_substances_that_reduce_blood_glucose_levels,_j.a_insulin(*<-sc_node_not_relation;;*);
+<-concept_a10b_substances_that_reduce_blood_glucose_levels(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[A10B];
 <-concept_a10ba_biguanides(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[A10BA];
@@ -268,7 +268,7 @@ concept_zofran_8_mg
 =>nrel_atc_code:[A04];
 <-concept_a04a_substances_in_vomiting_and_nausea(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[A04A];
-<-concept_a04aa_serotonin_5_ht3_antagonists(*<-sc_node_not_relation;;*);
+<-concept_a04aa_serotonin_antagonists(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[A04AA];
 <-concept_a04aa01_ondansetron(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[A04AA01];
@@ -290,7 +290,7 @@ paxlovid_150_mg=[*
 concept_paxlovid_150_mg
 <-sc_node_not_relation;
 <-consept_medication(*<-sc_node_not_relation;;*);
-<-concept_j_anti__infectious_substances_for_systematic_use(*<-sc_node_not_relation;;*);
+<-concept_j_anti__infectious_substances_for_systemic_use(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[J];
 <-concept_j05_antiviral_substances_for_systemic_use(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[J05];
@@ -352,9 +352,9 @@ concept_olmesartan_medoxomil_accord_40_mg
 =>nrel_atc_code:[C];
 <-concept_c09_renin_agiotensin_system_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09];
-<-concept_c09c_angiotensin_ii_receptor_blockers_arb(*<-sc_node_not_relation;;*);
+<-concept_c09c_angiotensin_ii_receptor_blockers_(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09C];
-<-concept_c09ca_angiotensin_ii_receptor_blockers_arb(*<-sc_node_not_relation;;*);
+<-concept_c09ca_angiotensin_ii_receptor_blockers_(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09CA];
 <-concept_c09ca08_olmesartan__toxomil(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09CA08];
