@@ -61,7 +61,7 @@ concept_lartokaz_25_mg
 <-consept_medication(*<-sc_node_not_relation;;*);
 <-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C];
-<-concept_c09_renin_angiotensin_functioning_substances(*<-sc_node_not_relation;;*);
+<-concept_c09_renin_agiotensin_system_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09];
 <-concept_c09d_angiotensin_ii_receptor_blockers_combinations(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09D];
@@ -124,7 +124,7 @@ concept_solvetta_120_mcg
 =>nrel_atc_code:[G02B];
 <-concept_g02bb_vaginal_contraceptives(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[G02BB];
-<-concept_g02bb01_ethonogestrel+ethynyl_estradiol(*<-sc_node_not_relation;;*);
+<-concept_g02bb01_ethonogestrel_ethynyl_estradiol(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[G02BB01];
 =>nrel_main_idtf:[solvetta (120mcg)](*<-lang_en;;*);
 =>nrel_company:Sandoz_Pharmaceuticals_d.d.;
@@ -155,7 +155,7 @@ concept_solvetta_15_mcg
 =>nrel_atc_code:[G02B];
 <-concept_g02bb_vaginal_contraceptives(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[G02BB];
-<-concept_g02bb01_ethonogestrel+ethynyl_estradiol(*<-sc_node_not_relation;;*);
+<-concept_g02bb01_ethonogestrel_ethynyl_estradiol(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[G02BB01];
 =>nrel_main_idtf:[solvetta (15mcg)](*<-lang_en;;*);
 =>nrel_company:Sandoz_Pharmaceuticals_d.d.;
@@ -180,7 +180,7 @@ concept_renitec_forte_20_mg
 <-consept_medication(*<-sc_node_not_relation;;*);
 <-concept_c_cardiovascular_system(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C];
-<-concept_c09_renin_angiotensin_functioning_substances(*<-sc_node_not_relation;;*);
+<-concept_c09_renin_agiotensin_system_substances(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09];
 <-concept_c09a_inhibitors_of_angiotensin_converting_enzyme(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09A];
@@ -290,7 +290,7 @@ paxlovid_150_mg=[*
 concept_paxlovid_150_mg
 <-sc_node_not_relation;
 <-consept_medication(*<-sc_node_not_relation;;*);
-<-concept_j_anti__infectious_substances_for_systemic_use(*<-sc_node_not_relation;;*);
+<-concept_j_anti__infectious_substances_for_systematic_use(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[J];
 <-concept_j05_antiviral_substances_for_systemic_use(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[J05];
