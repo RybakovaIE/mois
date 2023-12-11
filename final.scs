@@ -189,7 +189,7 @@ concept_renitec_forte_20_mg
 <-concept_c09aa02_enalapril(*<-sc_node_not_relation;;*);
 =>nrel_atc_code:[C09AA02];
 =>nrel_main_idtf:[renitec_forte (20mg)](*<-lang_en;;*);
-=>nrel_company:Merck_Sharp_&_Dohme_O;
+=>nrel_company:Merck_Sharp_and_Dohme_O;
 =>nrel_countries_of_sale:...(*->country_estonia;;*);
 =>nrel_route_of_administration:concept_oral_route(*<-sc_node_not_relation;;*);
 =>nrel_dosage_form:concept_tablet(*<-sc_node_not_relation;;*);
