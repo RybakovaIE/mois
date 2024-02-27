@@ -13,12 +13,12 @@ course_work_12170x
 	=>nrel_curator:...(*
 		<-sc_node_not_relation;
 		<-concept_teacher;
-		=>nrel__main_idtf:[Садовский М. Е.](*<-lang_ru;;*);*);
+		=>nrel__main_idtf:[Садовский М. Е.](*<-lang_ru;;*);;*);
 	=>nrel_inspector:...(*
 		<-sc_node_not_relation;
 		<-concept_teacher;
-		=>nrel__main_idtf:[Банцевич К. А.](*<-lang_ru;;*);*);
-	<=nrel_project:course_work_12170x;*);;
+		=>nrel__main_idtf:[Банцевич К. А.](*<-lang_ru;;*);;*);
+	<=nrel_project:course_work_12170x;;*);;
 
 ...
 <-sc_node_not_relation;
